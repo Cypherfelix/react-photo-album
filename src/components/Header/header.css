@@ -1,4 +1,4 @@
-.header {
+/* .header {
     display: flex;
     height: 60px;
     background-color: rgba(8, 8, 58, 255);
@@ -13,4 +13,28 @@
     background-image: url("./text-background.jpg");
     -webkit-background-clip: text;
     background-clip: text;
+} */
+
+.header a {
+    all: unset;
+}
+
+.logo {
+    display: flex;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.logo>span>span {
+    color: var(--pink);
+}
+
+.logo>img {
+    width: 3rem;
+    height: 3rem;
 }

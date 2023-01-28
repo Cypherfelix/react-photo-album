@@ -7,16 +7,19 @@ import Home from './pages/Home/Home';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/">
-            <Route index element={<Home />} />
-            <Route path="album">
-              <Route path=":albumId" element={<Album />} />
+      <div className="AppGlass">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/">
+              <Route index element={<Home />} />
+              <Route path="album">
+                <Route path=":albumId" element={<Album />} />
+              </Route>
             </Route>
-          </Route>
-        </Routes>
-      </BrowserRouter>
+          </Routes>
+        </BrowserRouter>
+      </div>
+
     </div>
   );
 }

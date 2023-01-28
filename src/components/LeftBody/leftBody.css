@@ -1,5 +1,5 @@
 .leftBody {
-    flex: 0.6;
+    min-width: 60%;
     background-color: white;
     min-height: calc(100vh - 60px);
     height: fit-content;
