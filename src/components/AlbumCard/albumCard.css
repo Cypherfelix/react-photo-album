@@ -1,0 +1,72 @@
+/* .albumCard {
+    height: 230px;
+    background-color: rgb(239, 239, 250);
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.image {
+    height: 90%;
+    margin-left: 10px;
+    background-color: red;
+    flex: 0.5;
+}
+
+.content {
+    flex: 0.4;
+} */
+
+.albumCard {
+    display: flex;
+    /* width: 300px; */
+    height: 400px;
+    margin: 10px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.albumCard .image {
+    height: 90%;
+    margin: 10px;
+    background-color: red;
+    flex: 0.5;
+}
+
+.albumCard .content {
+    flex: 0.4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.albumCard .tittle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.albumCard .details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.albumCard .action button {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.albumCard .action button:hover {
+    background-color: darkblue;
+}
