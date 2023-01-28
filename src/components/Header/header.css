@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    height: 60px;
+    background-color: rgba(8, 8, 58, 255);
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo {
+    width: auto;
+    font-size: 22px;
+    color: transparent;
+    background-image: url("./text-background.jpg");
+    -webkit-background-clip: text;
+    background-clip: text;
+}
